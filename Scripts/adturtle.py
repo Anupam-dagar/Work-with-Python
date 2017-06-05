@@ -1,0 +1,31 @@
+#This script draws inititals of my name(A.D) using turtle library.
+import turtle
+def AD():
+    canvas = turtle.Screen()
+    canvas.bgcolor("white")
+    me = turtle.Turtle()
+    me.shape("turtle")
+    me.color("blue")
+    me.speed(2)
+    #A
+    me.left(80)
+    me.forward(200)
+    me.right(160)
+    me.forward(200)
+    me.right(180)
+    me.forward(100)
+    me.left(80)
+    me.forward(30)
+    #D
+    me.right(180)
+    me.up()
+    me.forward(100)
+    me.left(90)
+    me.forward(100)
+    me.left(180)
+    me.down()
+    me.forward(200)
+    me.left(90)
+    me.circle(100, 180)
+    canvas.exitonclick()
+AD()    
