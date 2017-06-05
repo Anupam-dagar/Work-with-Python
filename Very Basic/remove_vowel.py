@@ -1,3 +1,4 @@
+#remove vowel from the string.
 def anti_vowel(text):
     result = ""
     for char in text:
@@ -6,3 +7,6 @@ def anti_vowel(text):
         else:
             result = result + char
     return result
+string = raw_input("enter your word:")
+answer = anti_vowel(string)
+print answer

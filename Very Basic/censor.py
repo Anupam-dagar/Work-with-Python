@@ -1,3 +1,4 @@
+#given a list "text",this function censors the "word".(file handling)
 def censor(text,word):
     temp = text.split()
     result =""
